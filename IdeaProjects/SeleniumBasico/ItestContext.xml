@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.or/testng-1.0.dtd">
+<suite name="Suite Group">
+    <test name="Test A">
+        <groups>
+            <run>
+                <include name="A"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.testingqa.basico.ParameterByItestContext"/>
+        </classes>
+    </test>
+
+    <test name="Test B">
+        <groups>
+            <run>
+                <include name="B"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.testingqa.basico.ParameterByItestContext"/>
+        </classes>
+    </test>
+</suite>
