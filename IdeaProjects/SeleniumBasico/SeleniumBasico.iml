@@ -19,5 +19,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="commonsio-2" level="project" />
+    <orderEntry type="library" name="itextpdf-2.1" level="project" />
+    <orderEntry type="library" name="mail-1.4" level="project" />
   </component>
 </module>
